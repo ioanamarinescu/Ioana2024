@@ -23,7 +23,11 @@ organizations:
   url: "https://www.sp2.upenn.edu/"
 role: Associate Professor
 
-social:
+# Social network links
+# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+
+    
+profiles:
 - icon: envelope
   icon_pack: fas
   link: "/#contact"
