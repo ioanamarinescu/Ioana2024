@@ -8,10 +8,7 @@ title: Ioana Marinescu
 # Full name (for SEO)
 first_name: Ioana
 last_name: Marinescu
-
-# Status emoji
-# status:
-#  icon: ☕️  
+ 
 
 # Is this the primary user of the site?
 superuser: true
@@ -38,7 +35,7 @@ profiles:
  # - icon: brands/instagram
  #   url: https://www.instagram.com/ 
  # - icon: brands/github
- #   url: https://github.com/gcushen */}}
+ #   url: https://github.com/gcushen
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/ioana-marinescu-34804a5/
   - icon: academicons/google-scholar
