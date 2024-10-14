@@ -42,7 +42,7 @@ interests:
   - Industrial Organization
   - Macroeconomics
 
-
+---
 
 ## About Me
 Ioana Marinescu is an associate professor at the University of Pennsylvania School of Social Policy & Practice. From July 2022 to June 2024, she was the principal economist at the US Department of Justice Antitrust Division. Her research expertise includes wage determination and monopsony power, antitrust law for the labor market, the universal basic income, unemployment insurance, and green jobs. Ioana’s research is published in top-tier academic journals including the Quarterly Journal of Economics and the Review of Economic Studies, and she serves as an associate editor for the Quarterly Journal of Economics. She’s a sought-after expert for policymakers, having testified before Congress and the Federal Trade Commission, and her work is regularly featured in major media outlets like the New York Times and the Washington Post.
