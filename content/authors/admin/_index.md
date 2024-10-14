@@ -10,8 +10,8 @@ first_name: Ioana
 last_name: Marinescu
 
 # Status emoji
-status:
-  icon: ☕️
+<!-- status:
+ icon: ☕️ -->
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,31 +20,31 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Associate Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: University of Pennsylvania School of Social Policy & Practice
+    url: https://sp2.upenn.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:ioana.marinescu@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://twitter.com/mioana
+  <!-- - icon: brands/instagram
+    url: https://www.instagram.com/ 
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/gcushen -->
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/ioana-marinescu-34804a5/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=FZeusXcAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0001-9131-6390
 
 interests:
   - Artificial Intelligence
