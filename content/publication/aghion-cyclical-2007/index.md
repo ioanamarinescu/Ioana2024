@@ -25,4 +25,6 @@ abstract: 'This paper uses yearly panel data on OECD countries to analyze the re
 links:
 - name: URL
   url: http://www.jstor.org/stable/25554967
+  - name: Preprint
+  url: AghionMarinescu2007.pdf
 ---
