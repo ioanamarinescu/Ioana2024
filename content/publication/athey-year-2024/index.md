@@ -7,6 +7,7 @@ authors:
 - Ioana Marinescu
 date: '2024-01-01'
 publishDate: '2024-10-18T01:57:50.276258Z'
+fetured: true
 publication_types:
 - article-journal
 publication: '*Review of Industrial Organization*'
