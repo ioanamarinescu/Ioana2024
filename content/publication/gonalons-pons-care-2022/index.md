@@ -1,0 +1,31 @@
+---
+title: 'Care Labor Demand Shocks and Inequality: How Childcare Costs Exacerbate Inequality
+  among American Families'
+authors:
+- Pilar Gonalons-Pons
+- Ioana Marinescu
+date: '2022-03-01'
+publishDate: '2024-10-18T01:57:50.283636Z'
+publication_types:
+- article-journal
+abstract: 'This article argues that care infrastructures can shape family income inequality
+  and examines access to childcare services in the US as a case study. We propose
+  that market-priced childcare systems generate inequalities in how births impact
+  mothers’ income contributions to families and aggravate family income inequality
+  as a result. Using the Survey of Income and Program Participation (SIPP) merged
+  with state-level childcare prices, we estimate individual fixed effects regression
+  models for the consequences of births on family income and on its proximate determinants:
+  mothers’ labor supply and earnings, and partners’ labor supply and earnings. Our
+  models include state and year fixed effects and identify the impact of childcare
+  costs from within-state variation in childcare prices. Our analyses show that births
+  increase family income inequality due to the negative impact of births on mothers’
+  earnings and that the negative impact of births on mothers’ earnings is not compensated
+  by increases in partners’ earnings or income transfers. We find that higher childcare
+  costs accentuate birth earnings penalties for mothers without college degrees, but
+  not for mothers with college degrees. In all, we show that childcare costs exacerbate
+  family income gaps between women without and with a college degree by 29 percentage
+  points.'
+links:
+- name: URL
+  url: https://repository.upenn.edu/handle/20.500.14332/44290
+---
