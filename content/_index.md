@@ -45,7 +45,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Working Papers
+      title: Featured Publications & Working Papers
       filters:
         folders:
           - publication
@@ -55,7 +55,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
+      title: Recent Publications & Working Papers
       text: ""
       filters:
         folders:
