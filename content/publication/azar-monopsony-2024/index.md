@@ -4,7 +4,7 @@ authors:
 - José Azar
 - Ioana Marinescu
 date: '2024-08-01'
-featured:true
+featured: true
 publishDate: '2024-10-14T18:50:59.161719Z'
 publication_types:
 - article-journal
