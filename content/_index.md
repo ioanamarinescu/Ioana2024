@@ -51,8 +51,9 @@ sections:
           - publication
         featured_only: true
     design:
-      view: article-grid
-      columns: 2
+      view: citation
+#      view: article-grid
+#      columns: 2
   - block: collection
     content:
       title: Recent Publications & Working Papers
