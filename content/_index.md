@@ -52,8 +52,8 @@ sections:
         featured_only: true
     design:
       view: article-grid
-     columns: 2
-  - block: collection # id: papers # This allows for the "papers" menu to direct here.
+      columns: 2
+  - block: collection
     content:
       title: Recent Publications
       text: ""
@@ -62,7 +62,7 @@ sections:
           - publication
         exclude_featured: false
     design:
-      view: citation
+      view: citation  
 #  - block: collection
 #    id: talks
 #    content:
