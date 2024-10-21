@@ -6,3 +6,5 @@ To experiment with changes to the website on GitHub without pushing changes live
 're ready to deploy, you can unstop the build in Netlify.
 
 To automatically update papers, simply upload an updated version of publications.bib. For me, I take this from Zotero Marinescu/PapersAllNoDup.
+
+To update bio, go to content/authors/admin/_index.md.
