@@ -5,7 +5,7 @@ If you ever want to see the original code the website was based on, check out ht
 To experiment with changes to the website on GitHub without pushing changes live to Netlify, you can stop build in Netlify: https://app.netlify.com/sites/silver-duckanoo-ef1c85/configuration/deploys#build-settings. When you
 're ready to deploy, you can unstop the build in Netlify.
 
-To automatically update papers, simply upload an updated version of publications.bib. For me, I take this from Zotero Marinescu/PapersAllNoDup.
+To automatically update papers, simply upload an updated version of publications.bib in the main folder called Ioana2024. For me, I take this from Zotero Marinescu/PapersAllNoDup.
 
 To upload CV, update resume.pdf in folder "content/static/uploads"
 
