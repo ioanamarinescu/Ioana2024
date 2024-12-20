@@ -5,6 +5,7 @@ authors:
 - Ioana Marinescu
 date: '2024-11-01'
 publishDate: '2024-12-20T16:20:26.500640Z'
+featured: true
 publication_types:
 - chapter
 publication: '*Handbook of Labor Economics*'
