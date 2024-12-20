@@ -7,6 +7,6 @@ To experiment with changes to the website on GitHub without pushing changes live
 
 To automatically update papers, simply upload an updated version of publications.bib in the main folder called Ioana2024. For me, I take this from Zotero Marinescu/PapersAllNoDup.
 
-To upload CV, update resume.pdf in folder "content/static/uploads". Make sure the upload is correctly named resume.pdf, or it will not show up correctly in the website.
+To upload CV, update resume.pdf in folder "content/static/uploads". Make sure the upload is correctly named resume.pdf, or it will not show up correctly in the website. To rename or delete a file, you have to first open it.
 
 To update bio, go to content/authors/admin/_index.md.
