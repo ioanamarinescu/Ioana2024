@@ -12,3 +12,5 @@ To make a paper featured, go to content folder, to the folder of the paper, and 
 To upload CV, update resume.pdf in folder "content/static/uploads". Make sure the upload is correctly named resume.pdf, or it will not show up correctly in the website. To rename or delete a file, you have to first open it.
 
 To update bio, go to content/authors/admin/_index.md.
+
+To modify content in the home page, such as modify the news section or featured articles, edit content/_index.md.
