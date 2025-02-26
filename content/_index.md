@@ -34,7 +34,7 @@ sections:
     content:
       title: 'News'
 #      subtitle: ''
-      text: |-
+      text: 
 Exciting Funding Opportunity for Early-Career Researchers!
 Artificial Intelligence (hashtag#AI) keeps me up at night. What will happen to work and workers?
 I'm thrilled to announce a collaboration with Schmidt Sciences to offer up to $200,000 in funding for early-career researchers. This initiative aims to explore AI's impact on job search and matching, labor market competition, and job quality. 
