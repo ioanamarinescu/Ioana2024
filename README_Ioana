@@ -9,7 +9,7 @@ To automatically update papers, simply upload an updated version of publications
 
 To make a paper featured, go to content folder, to the folder of the paper, and add featured: true (or modify featured: false).
 
-To upload CV, update resume.pdf in folder "content/static/uploads". Make sure the upload is correctly named resume.pdf, or it will not show up correctly in the website. To rename or delete a file, you have to first open it.
+To upload CV, update resume.pdf in folder "content/static/uploads". Make sure the upload is correctly named resume.pdf (and not e.g. resume.pdf.pdf), or it will not show up correctly in the website. To rename or delete a file, you have to first open it. Specifically to rename it, you need to first click the edit button.
 
 To update bio, go to content/authors/admin/_index.md.
 
