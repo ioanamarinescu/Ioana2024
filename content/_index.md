@@ -30,24 +30,23 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: 'News'
-      # subtitle: ''
-      text: |
-        **Exciting Funding Opportunity for Early-Career Researchers!**  
-      
-        Artificial Intelligence (**#AI**) keeps me up at night. What will happen to work and workers?  
+#  - block: markdown
+#    content:
+#      title: 'News'
+#      # subtitle: ''
+#      text: |
+#        **Exciting Funding Opportunity for Early-Career Researchers!**  
+#      
+#        Artificial Intelligence (**#AI**) keeps me up at night. What will happen to work and workers?  
 
-        I'm thrilled to announce a collaboration with **Schmidt Sciences** to offer up to **$200,000 in funding** for early-career researchers. This initiative aims to explore AI's impact on **job search and matching, labor market competition, and job quality**.  
+#        I'm thrilled to announce a collaboration with **Schmidt Sciences** to offer up to **$200,000 in funding** for early-career researchers. This initiative aims to explore AI's impact on **job search and matching, labor market competition, and job quality**.  
 
-        I will help selected applicants after the initial stage to develop their proposals to **maximize the chances they get funded**. I really look forward to mentoring the next generation!  
-
-        **Application Deadline: March 31, 2025.**  
-
-        Don't miss this chance to make a significant impact in the field. 
-
-        <a href="https://www.schmidtsciences.org/ai-at-work/" target="_blank">Learn more and apply</a>
+#        I will help selected applicants after the initial stage to develop their proposals to **maximize the chances they get funded**. I really look forward to mentoring the next generation!  
+#
+ #       **Application Deadline: March 31, 2025.**  
+#
+ #       Don't miss this chance to make a significant impact in the field. 
+#       <a href="https://www.schmidtsciences.org/ai-at-work/" target="_blank">Learn more and apply</a>
     
       # Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
       # I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
