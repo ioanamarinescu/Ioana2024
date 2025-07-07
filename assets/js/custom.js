@@ -30,8 +30,4 @@ document.addEventListener('DOMContentLoaded', function() {
         childList: true, 
         subtree: true 
     });
-    
-    // Also try after a delay
-    setTimeout(clickLoadMore, 1000);
-    setTimeout(clickLoadMore, 2000);
 });
