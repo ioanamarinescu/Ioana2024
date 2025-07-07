@@ -14,3 +14,14 @@ body:has(#search:not(.hidden)) {
   z-index: 999999 !important;
   overflow-y: auto !important;
 }
+
+/* Add to assets/css/custom.css */
+/* Show all hidden search results */
+.search-results .d-none {
+    display: block !important;
+}
+
+/* Hide the "Load More" button since it's no longer needed */
+.search-results .pagefind-ui__button svelte-1d60ae3 {
+    display: none !important;
+}
