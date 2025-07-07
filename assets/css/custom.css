@@ -15,12 +15,35 @@ body:has(#search:not(.hidden)) {
   overflow-y: auto !important;
 }
 
+/* Dark mode support - multiple selectors for better mobile coverage */
+.dark #search:not(.hidden),
+[data-wc-theme="dark"] #search:not(.hidden),
+html.dark #search:not(.hidden) {
+  background-color: #151f28 !important;
+}
+
+/* System dark mode preference (for mobile) */
+@media (prefers-color-scheme: dark) {
+  #search:not(.hidden) {
+    background-color: #151f28 !important;
+  }
+}
+
 /* Show hidden search results */
 #search-results .search-hit.d-none {
     display: block !important;
 }
 
 /* Hide the load more button */
-#search-results .pagefind-ui__button {
+/* Try multiple selectors to catch the button */
+#search-results .pagefind-ui__button,
+#search-results button,
+#search-results .btn,
+#search-results [class*="load"],
+#search-results [class*="more"],
+.pagefind-ui__button,
+button:has-text("Load More"),
+button[onclick*="load" i],
+.search-results button {
     display: none !important;
 }
