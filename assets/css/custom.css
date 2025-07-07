@@ -15,6 +15,11 @@ body:has(#search:not(.hidden)) {
   overflow-y: auto !important;
 }
 
+/* Add padding at bottom for mobile so that we can see the "load more results" button */
+#search:not(.hidden) .pagefind-ui__results {
+  padding-bottom: 100px !important;
+}
+
 /* Dark mode support - multiple selectors for better mobile coverage */
 .dark #search:not(.hidden),
 [data-wc-theme="dark"] #search:not(.hidden),
