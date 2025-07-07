@@ -1,0 +1,52 @@
+/*************************************************
+ *  Fix for search results overlay
+ *  Makes search background opaque so homepage doesn't show through
+ **************************************************/
+
+/* Main search results container */
+.search-results {
+  background-color: #ffffff !important;  /* Solid white background */
+  opacity: 1 !important;
+  z-index: 9999 !important;  /* Make sure it's on top */
+}
+
+/* Dark mode support */
+.dark .search-results {
+  background-color: #1a1a1a !important;  /* Solid dark background */
+  opacity: 1 !important;
+}
+
+/* Ensure the search modal takes full screen */
+.searching .search-results {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow-y: auto !important;  /* Allow scrolling */
+  transform: scale(1) !important;
+  -webkit-transform: scale(1) !important;
+  visibility: visible !important;
+}
+
+/* Keep search header visible and styled */
+.search-header {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #dee2e6;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 10000 !important;
+  padding: 1rem !important;
+}
+
+.dark .search-header {
+  background-color: #1a1a1a !important;
+  border-bottom: 1px solid #444;
+}
+
+/* Optional: Add a subtle shadow to search header */
+.search-header {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
