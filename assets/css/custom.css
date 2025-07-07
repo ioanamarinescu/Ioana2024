@@ -1,0 +1,6 @@
+/* TEST: Make navbar light blue to verify CSS is loading */
+.navbar {
+  background-color: lightblue !important;
+}
+
+/* If CSS loads, we'll see this and then add our search fix here */
