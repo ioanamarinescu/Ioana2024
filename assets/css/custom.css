@@ -1,8 +1,14 @@
+/* Prevent body scroll when search is open */
 body:has(#search:not(.hidden)) {
   overflow: hidden !important;
 }
 
+/* Make search container scrollable */
 #search:not(.hidden) {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
   height: 100vh !important;
-  overflow-y: auto !important;
+  overflow-y: auto !important;  /* This enables scrolling within search */
 }
