@@ -1,37 +1,11 @@
 <script>
-console.log('Custom search script loaded via hooks!');
-alert('Hooks system works!');
-
-// Auto-click Load More button for search results
+// Auto-click Load More button for Pagefind search results
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOM loaded, setting up search auto-expand...');
-    
-    // Add visible test banner
-    const banner = document.createElement('div');
-    banner.innerHTML = 'CUSTOM SEARCH SCRIPT IS LOADED!';
-    banner.style.cssText = `
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background-color: blue;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        z-index: 99999;
-        font-size: 20px;
-        font-weight: bold;
-    `;
-    document.body.appendChild(banner);
-    
-    // Remove banner after 5 seconds
-    setTimeout(() => banner.remove(), 5000);
     
     // Function to click Load More button
     function clickLoadMore() {
         const loadMoreBtn = document.querySelector('.pagefind-ui__button');
         if (loadMoreBtn && loadMoreBtn.textContent.includes('Load')) {
-            console.log('Clicking Load More button...');
             loadMoreBtn.click();
             setTimeout(clickLoadMore, 200);
         }
@@ -43,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const hasButton = document.querySelector('.pagefind-ui__button');
         
         if (hasResults && hasButton) {
-            console.log('Search results detected, auto-expanding...');
             clickLoadMore();
         }
     });
@@ -53,5 +26,9 @@ document.addEventListener('DOMContentLoaded', function() {
         childList: true, 
         subtree: true 
     });
+    
+    // Also try after a delay in case search is already open
+    setTimeout(clickLoadMore, 1000);
+    setTimeout(clickLoadMore, 2000);
 });
 </script>
