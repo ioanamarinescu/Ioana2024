@@ -10,14 +10,10 @@ body:has(#search:not(.hidden)) {
   left: 0 !important;
   width: 100vw !important;
   height: 100vh !important;
+  height: 100dvh !important; /* This will fix the mobile UI bar issue */
   background-color: white !important;  /* This is crucial */
   z-index: 999999 !important;
   overflow-y: auto !important;
-}
-
-/* Add padding at bottom for mobile so that we can see the "load more results" button */
-#search:not(.hidden) .pagefind-ui__results {
-  padding-bottom: 200px !important;
 }
 
 /* Dark mode support - multiple selectors for better mobile coverage */
