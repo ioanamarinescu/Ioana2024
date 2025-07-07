@@ -1,0 +1,33 @@
+<style>
+/* Search overlay fix */
+.searching {
+  overflow: hidden !important;
+}
+
+.search-results {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  z-index: 99999 !important;
+  overflow-y: auto !important;
+}
+
+.dark .search-results {
+  background-color: rgba(26, 26, 26, 1) !important;
+}
+
+/* Ensure the container inside also has background */
+.search-results .universal-wrapper,
+.search-results .container {
+  background-color: white !important;
+  min-height: 100vh !important;
+}
+
+.dark .search-results .universal-wrapper,
+.dark .search-results .container {
+  background-color: #1a1a1a !important;
+}
+</style>
