@@ -15,13 +15,12 @@ body:has(#search:not(.hidden)) {
   overflow-y: auto !important;
 }
 
-/* Add to assets/css/custom.css */
-/* Show all hidden search results */
-.search-results .d-none {
+/* Show hidden search results */
+#search-results .search-hit.d-none {
     display: block !important;
 }
 
-/* Hide the "Load More" button since it's no longer needed */
-.search-results .pagefind-ui__button svelte-1d60ae3 {
+/* Hide the load more button */
+#search-results .pagefind-ui__button {
     display: none !important;
 }
