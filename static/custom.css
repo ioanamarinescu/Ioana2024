@@ -1,0 +1,4 @@
+/* TEST: Make navbar light blue */
+.navbar {
+  background-color: lightblue !important;
+}
