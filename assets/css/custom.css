@@ -1,6 +1,32 @@
-/* TEST: Make navbar light blue to verify CSS is loading */
-.navbar {
-  background-color: lightblue !important;
+/* Search overlay fix - scroll issue resolved */
+#search:not(.hidden) {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  background-color: white !important;
+  z-index: 999999 !important;
+  overflow-y: auto !important;
 }
 
-/* If CSS loads, we'll see this and then add our search fix here */
+.dark #search:not(.hidden) {
+  background-color: #151f28 !important;
+}
+
+/* Prevent body scroll when search is open */
+body:has(#search:not(.hidden)) {
+  overflow: hidden !important;
+  position: fixed !important;
+  width: 100% !important;
+}
+
+/* Ensure search results have solid background */
+.pagefind-ui__drawer {
+  background-color: inherit !important;
+  min-height: 100vh !important;
+}
+
+.pagefind-ui__results {
+  padding-bottom: 100px !important;
+}
