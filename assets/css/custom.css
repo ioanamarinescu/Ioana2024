@@ -1,5 +1,5 @@
 /* Search overlay fix - scroll issue resolved */
-#search:not(.hidden) {
+/* #search:not(.hidden) {
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
@@ -8,12 +8,12 @@
   background-color: white !important;
   z-index: 999999 !important;
   overflow-y: auto !important;
-}
+} */
 
-.dark #search:not(.hidden) {
+/* .dark #search:not(.hidden) {
   background-color: #151f28 !important;
 }
-
+ */
 /* Prevent body scroll when search is open */
 body:has(#search:not(.hidden)) {
   overflow: hidden !important;
@@ -21,7 +21,7 @@ body:has(#search:not(.hidden)) {
   width: 100% !important;
 }
 
-/* Ensure search results have solid background */
+/* /* Ensure search results have solid background */
 .pagefind-ui__drawer {
   background-color: inherit !important;
   min-height: 100vh !important;
@@ -30,3 +30,4 @@ body:has(#search:not(.hidden)) {
 .pagefind-ui__results {
   padding-bottom: 100px !important;
 }
+ */
