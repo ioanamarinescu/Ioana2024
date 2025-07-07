@@ -24,8 +24,8 @@ html.dark #search:not(.hidden) {
 }
 
 /* System dark mode preference (for mobile) */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   #search:not(.hidden) {
     background-color: #151f28 !important;
   }
-}
+} */
