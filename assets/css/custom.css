@@ -16,16 +16,10 @@ body:has(#search:not(.hidden)) {
   overflow-y: auto !important;
 }
 
-/* Dark mode support - multiple selectors for better mobile coverage */
+/* Dark mode support for mobile - multiple selectors for better coverage */
 .dark #search:not(.hidden),
 [data-wc-theme="dark"] #search:not(.hidden),
 html.dark #search:not(.hidden) {
   background-color: #151f28 !important;
 }
 
-/* System dark mode preference (for mobile) */
-/* @media (prefers-color-scheme: dark) {
-  #search:not(.hidden) {
-    background-color: #151f28 !important;
-  }
-} */
