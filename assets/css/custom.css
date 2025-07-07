@@ -28,22 +28,3 @@ html.dark #search:not(.hidden) {
     background-color: #151f28 !important;
   }
 }
-
-/* Show hidden search results */
-#search-results .search-hit.d-none {
-    display: block !important;
-}
-
-/* Hide the load more button */
-/* Try multiple selectors to catch the button */
-#search-results .pagefind-ui__button,
-#search-results button,
-#search-results .btn,
-#search-results [class*="load"],
-#search-results [class*="more"],
-.pagefind-ui__button,
-button:has-text("Load More"),
-button[onclick*="load" i],
-.search-results button {
-    display: none !important;
-}
