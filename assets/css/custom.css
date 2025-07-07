@@ -18,9 +18,9 @@ body:has(#search:not(.hidden)) {
 }
 
 /* Add padding at bottom for mobile */
-#search:not(.hidden) .pagefind-ui__results {
+/* #search:not(.hidden) .pagefind-ui__results {
   padding-bottom: 100px !important;
-}
+} */
 
 /* Dark mode support - multiple selectors for better mobile coverage */
 .dark #search:not(.hidden),
@@ -29,9 +29,9 @@ html.dark #search:not(.hidden) {
   background-color: #151f28 !important;
 }
 
-/* Only apply system dark mode if the site is also in dark mode */
+/* System dark mode preference (for mobile) */
 @media (prefers-color-scheme: dark) {
-  .dark #search:not(.hidden) {
+  #search:not(.hidden) {
     background-color: #151f28 !important;
   }
 }
