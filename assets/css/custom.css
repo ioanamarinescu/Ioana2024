@@ -21,13 +21,13 @@ body:has(#search:not(.hidden)) {
   width: 100% !important;
 }
 
-/* /* Ensure search results have solid background */
-.pagefind-ui__drawer {
+/* Ensure search results have solid background */
+/* .pagefind-ui__drawer {
   background-color: inherit !important;
   min-height: 100vh !important;
 }
 
 .pagefind-ui__results {
   padding-bottom: 100px !important;
-}
- */
+} */
+ 
