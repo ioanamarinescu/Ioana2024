@@ -1,10 +1,5 @@
 The main documentation is in README. This file is a summary of main things to know for me.
 
-If you ever want to see the original code the website was based on, check out https://github.com/HugoBlox/theme-academic-cv (this link is also present at the top of the page).
-
-To experiment with changes to the website on GitHub without pushing changes live to Netlify, you can stop build in Netlify: https://app.netlify.com/sites/silver-duckanoo-ef1c85/configuration/deploys#build-settings. When you
-'re ready to deploy, you can unstop the build in Netlify.
-
 To automatically update papers, simply upload an updated version of publications.bib in the main folder called Ioana2024. For me, I take this from Zotero Marinescu/PapersAllNoDup. Then go to pull requests, and approve the merger of the changes (you can preview changes based on the output of the bot in there).
 
 To make a paper featured, go to content folder, to the folder of the paper, and add featured: true (or modify featured: false).
@@ -14,3 +9,8 @@ To upload CV, update resume.pdf in folder "content/static/uploads". Make sure th
 To update bio, go to content/authors/admin/_index.md.
 
 To modify content in the home page, such as modify the news section or featured articles, edit content/_index.md.
+
+If you ever want to see the original code the website was based on, check out https://github.com/HugoBlox/theme-academic-cv (this link is also present at the top of the page).
+
+To experiment with changes to the website on GitHub without pushing changes live to Netlify, you can stop build in Netlify: https://app.netlify.com/sites/silver-duckanoo-ef1c85/configuration/deploys#build-settings. When you
+'re ready to deploy, you can unstop the build in Netlify.
