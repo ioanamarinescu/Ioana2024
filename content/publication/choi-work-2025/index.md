@@ -10,7 +10,7 @@ publication_types:
 - article-journal
 publication: '*PLOS ONE*'
 doi: 10.1371/journal.pone.0318586
-abstract: Building upon the Job Demands-Resources model, this study examines the relationships
+abstract: Building upon  the Job Demands-Resources model, this study examines the relationships
   among precarious work schedules, work attendance anxiety, and employer support during
   the early COVID-19 pandemic. For part-time retail workers, the prevalence of precarious
   work schedules has been a persistent problem. Additionally, new challenges such
