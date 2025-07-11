@@ -6,6 +6,7 @@ authors:
 - Ioana Marinescu
 date: '2024-08-01'
 publishDate: '2024-10-14T18:50:59.152075Z'
+featured: true
 publication_types:
 - article-journal
 publication: '*Data in Brief*'
