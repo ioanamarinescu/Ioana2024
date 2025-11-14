@@ -6,7 +6,7 @@ authors:
 - Ioana Marinescu
 date: '2022-08-01'
 publishDate: '2024-10-18T01:57:50.205046Z'
-featured: true
+featured: false
 publication_types:
 - manuscript
 publication: '*National Bureau of Economic Research*'
