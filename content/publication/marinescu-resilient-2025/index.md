@@ -7,4 +7,7 @@ publishDate: '2025-11-14T18:33:29.584916Z'
 publication_types:
 - manuscript
 publication: '*The Digitalist Papers*'
+links:
+- name: URL
+  url: https://www.digitalistpapers.com/vol2/marinescu
 ---
