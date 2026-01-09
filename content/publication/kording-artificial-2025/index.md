@@ -14,4 +14,6 @@ links:
 - name: URL
   url: 
     https://www.brookings.edu/articles/artificial-intelligence-saturation-and-the-future-of-work/
+- name: PDF
+  url: IntelligenceSaturation_KordingMarinescu.pdf
 ---
