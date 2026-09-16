@@ -4,6 +4,7 @@ authors:
 - Ioana Elena Marinescu
 date: '2026-09-01'
 publishDate: '2026-09-16T11:23:28.030669Z'
+featured: true
 publication_types:
 - manuscript
 publication: '*Social Science Research Network*'
